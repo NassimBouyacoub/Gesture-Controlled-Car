@@ -54,7 +54,7 @@ void loop() {
     }
     Serial.println(inputString);
     while (Serial.available() > 0)  
-    { junk = Serial.read() ; }      // clear the serial buffer
+    { junk = Serial.read() ; }      //clear the serial buffer
     if(inputString == "a"){         //in case of 'a' go forward
      av();                          
     }else if(inputString == "r"){   //incase of 'b' turn the LED off
